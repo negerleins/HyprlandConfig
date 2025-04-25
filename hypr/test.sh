@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2088
 WALLPAPER="~/Public/hyprpaper/cyberpunk.jpg"
 
 # Preload the wallpaper
