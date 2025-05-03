@@ -17,7 +17,7 @@ sha256sums=(
 
 package() {
     install -d "$pkgdir/home/smith/.config/HyprlandConfig/testdir"
-    cp -r "$srcdir/HyprlandConfig/bin/hypr" "$pkgdir/home/smith/.config/hypr"
-    cp -r "$srcdir/HyprlandConfig/bin/wofi" "$pkgdir/home/smith/.config/wofi"
-    cp -r "$srcdir/HyprlandConfig/bin/waybar" "$pkgdir/home/smith/.config/waybar"
+    cp -r "$srcdir/HyprlandConfig/bin/hypr" "$pkgdir/home/$USER/.config/hypr"
+    cp -r "$srcdir/HyprlandConfig/bin/wofi" "$pkgdir/home/$USER/.config/wofi"
+    cp -r "$srcdir/HyprlandConfig/bin/waybar" "$pkgdir/home/$USER/.config/waybar"
 }
