@@ -1,6 +1,6 @@
 # Maintainer: blacksmith (@negerleins)
 
-pkgname=nergerleins-hyprland-config
+pkgname=negerleins-hyprland-config
 pkgver=0.2
 pkgrel=1
 pkgdesc="Hyprland configuration files from blacksmith"
