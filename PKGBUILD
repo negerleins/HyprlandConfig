@@ -16,8 +16,8 @@ sha256sums=(
 )
 
 package() {
-    install -d "$pkgdir/home/smith/.config/HyprlandConfig/testdir"
-    cp -r "$srcdir/HyprlandConfig/bin/hypr" "$pkgdir/home/$USER/.config/hypr"
-    cp -r "$srcdir/HyprlandConfig/bin/wofi" "$pkgdir/home/$USER/.config/wofi"
-    cp -r "$srcdir/HyprlandConfig/bin/waybar" "$pkgdir/home/$USER/.config/waybar"
+    install -d "$pkgdir/usr/share/nergerleins-hyprland-config"
+    cp -r "$srcdir/HyprlandConfig/bin/hypr" "$pkgdir/usr/share/nergerleins-hyprland-config/hypr"
+    cp -r "$srcdir/HyprlandConfig/bin/wofi" "$pkgdir/usr/share/nergerleins-hyprland-config/wofi"
+    cp -r "$srcdir/HyprlandConfig/bin/waybar" "$pkgdir/usr/share/nergerleins-hyprland-config/waybar"
 }
